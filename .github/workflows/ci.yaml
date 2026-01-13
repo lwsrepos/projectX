@@ -12,7 +12,7 @@ env:
 
 jobs:
   detect-changes:
-    runs-on: ubuntu-latest
+    runs-on: ubuntu-latest-arm
     outputs:
       rust: ${{ steps.changes.outputs.rust }}
       go: ${{ steps.changes.outputs.go }}
